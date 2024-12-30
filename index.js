@@ -80,7 +80,7 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-// ------------------------------- sign up and login ----------------------------------------------------------
+// ------------------------------- sign up and login for the admin panel ----------------------------------------------------------
 
 // curiotory admin login api
 app.post("/register", async (req, res) => {
